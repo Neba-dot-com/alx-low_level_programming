@@ -17,10 +17,6 @@ int main(void)
 		{
 			putchar(',');
 		}
-		else
-		{
-			putchar('$');
-		}
 		putchar(' ');
 		num = num + 1;
 	}

@@ -12,7 +12,7 @@ int main(void)
 
 	while (num <= 15)
 	{
-		puchar(num + '0x');
+		putchar(num + '0x');
 
 		num = num + 1;
 	}

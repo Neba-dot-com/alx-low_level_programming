@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - A program tp print whether the number stored  is postive or negative
  * n - the variable will store a different vallue
@@ -8,7 +10,8 @@ int main(void)
 {
 	int n;
 
-	scanf("%d", &n);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{

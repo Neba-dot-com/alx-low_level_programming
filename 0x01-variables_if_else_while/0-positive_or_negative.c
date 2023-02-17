@@ -8,7 +8,8 @@ int main(void)
 {
 	int n;
 
-	scanf("%d", &n);
+	stand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{

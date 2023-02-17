@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 /**
  * main - Aprogram that prints the size of various types on the computer
  *
@@ -12,8 +12,8 @@ int main(void)
 	long long int d;
 	float f;
 
-printf("Size of a char: %lu byte($)\n", (unsigned long$
-sizeof(a));
+printf("Size of a char: %lu byte($)\n", (unsigned long
+sizeof(a));i
 printf("Size of an int: %lu byte($)\n", (unsigned long)
 sizeof(b));
 printf("Size of a long int: %lu bytes($)\n", (unsigned long)

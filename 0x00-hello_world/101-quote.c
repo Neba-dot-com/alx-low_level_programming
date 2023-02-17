@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-fprintf(stderr,"%s","and that piece of art is useful\" -Dora korpar, 2015-10-19");
+fprintf(stderr, "and that piece of art is useful\" -Dora korpar, 2015-10-109\n");
 return (0);
 }

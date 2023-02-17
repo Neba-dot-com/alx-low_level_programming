@@ -12,14 +12,18 @@ int main(void)
 	a = 'a';
 	A = 'A';
 
-	while (a <= 'z' && A <= 'Z')
+	while (a <= 'z')
 	{
 		putchar(a);
-		putchar(A);
-		putchar('\n');
 
 		a = a + 1;
+	}
+	while (A <= 'Z')
+	{
+		putchar(A);
+
 		A = A + 1;
 	}
+	putchar('\n');
 	return (0);
 }

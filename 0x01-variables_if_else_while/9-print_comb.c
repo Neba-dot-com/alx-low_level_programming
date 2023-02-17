@@ -16,9 +16,10 @@ int main(void)
 		if (num <= 8)
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
 		num = num + 1;
 	}
+	putchar('\n');
 	return (0);
 }

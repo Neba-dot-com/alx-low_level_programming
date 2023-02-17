@@ -16,5 +16,6 @@ int main(void)
 
 		num = num + 1;
 	}
+	printf("\n");
 	return (0);
 }

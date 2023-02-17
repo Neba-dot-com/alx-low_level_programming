@@ -12,7 +12,7 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar('%c', num);
+		putchar(num);
 
 		num = num + 1;
 	}

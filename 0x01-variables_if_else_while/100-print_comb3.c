@@ -15,15 +15,17 @@ int main(void)
 		j = 0;
 		while (j <= 9)
 		{
-			if (i < j)
+			if (i < j && i != 8 && i != 9)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-				if (i != 8 && j != 9)
-				{
 				putchar(',');
 				putchar(' ');
-				}
+			}
+			else if (i < j)
+			{
+				putchar(i + '0');
+				putchar(j + '0');
 			}
 			j = j + 1;
 		}

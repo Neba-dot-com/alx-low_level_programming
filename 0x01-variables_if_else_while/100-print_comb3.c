@@ -6,9 +6,14 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
+	int i;
+	int j;
+
+	i = 0;
+	j = 0;
+	while (i <= 9)
 	{
-		for (int j = 0; j <= 9; j++)
+		while (j <= 9)
 		{
 			if (i < j)
 			{
@@ -17,7 +22,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			j = j + 1;
 		}
+		i = i + 1;
 	}
 	putchar('\n');
 	return (0);

@@ -11,23 +11,17 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		_putchar('+');
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n);
+		_putchar(n + '0');
 	}
 	else if (n == 0)
 	{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('n');
+		_putchar('0')
+		_putchar(n + '0');
 	}
 	else
 	{
 		_putchar('-');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('n');
+		_putchar(n + '0');
 	}
 	return (0);
 }

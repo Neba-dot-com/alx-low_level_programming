@@ -1,4 +1,9 @@
 #include "main.h"
+
+/**
+ * print_aphabet - Make the alphabet
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	char a;

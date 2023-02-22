@@ -6,17 +6,15 @@
  */
 int _abs(int c)
 {
-	
-	
 	if (c >= 0)
 	{
-		_putchar(c + '0');
-		return (0);
+		return (c);
 	}
 	else
 	{
-		c = c * -1;
-		_putchar(c + '0');
-		return (0);
+		int abs_val;
+
+		abs_val = c * -1;
+		return (abs_val);
 	}
 }

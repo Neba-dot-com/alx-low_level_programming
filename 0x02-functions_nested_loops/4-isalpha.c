@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _isalpha - check if it is a letter
  * @c: a parameter used as input

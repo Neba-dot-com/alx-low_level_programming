@@ -10,13 +10,13 @@ int _abs(int c)
 	
 	if (c >= 0)
 	{
-		_putchar(c);
-		return (1);
+		_putchar(c + '0');
+		return (0);
 	}
 	else
 	{
 		c = c * -1;
-		_putchar(c);
-		return (1);
+		_putchar(c + '0');
+		return (0);
 	}
 }

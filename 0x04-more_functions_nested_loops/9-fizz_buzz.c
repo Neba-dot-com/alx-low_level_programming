@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 /**
- *fizzBuzz - fizz buzz test
+ *main - fizz buzz test
  *
- * Return: empty
+ * Return: always 0 (success)
  */
-void fizzBuzz(void)
+void main(void)
 {
 	int i;
 
@@ -34,4 +35,5 @@ void fizzBuzz(void)
 		i++;
 	}
 	printf("\n");
+	return (0);
 }

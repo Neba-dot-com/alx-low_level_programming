@@ -8,7 +8,7 @@ void fizzBuzz(void)
 {
 	int i;
 
-	i = 0;
+	i = 1;
 	while (i <= 100)
 	{
 		if ((i % 5) == 0 && (i % 3) == 0)
@@ -27,7 +27,10 @@ void fizzBuzz(void)
 		{
 			printf("%d", i);
 		}
-		printf(" ");
+		if (i != 100)
+		{
+			printf(" ");
+		}
 		i++;
 	}
 	printf("\n");

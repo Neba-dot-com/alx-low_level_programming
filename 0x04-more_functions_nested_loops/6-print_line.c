@@ -8,7 +8,12 @@ void print_line(int n)
 {
 	int i;
 
-	if (n > 0)
+	if (n <= 0)
+	{
+		_putchar('\\');
+		_putchar('n');
+	}
+	else if (n > 0)
 	{
 		i = 0;
 		while (i < c)
@@ -16,6 +21,7 @@ void print_line(int n)
 			_putchar('_');
 			j++;
 		}
+		_putchar('\\');
+		_putchar('n');
 	}
-	_putchar('\n');
 }

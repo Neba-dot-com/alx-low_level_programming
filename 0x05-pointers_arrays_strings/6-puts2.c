@@ -17,9 +17,17 @@ void puts2(char *str)
 
 	for (i = 0; i < c; i++)
 	{
-		if (str[i] % 2 == 0)
+		if (str[i] >= '0' && str[i] <= '9' && str[i] % 2 == 0)
 		{
 			_putchar(str[i]);
+		}
+		else if (str[i] >= '0' && str[i] <= '9' && str[i] % 2 != 0)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(s[i]);
 		}
 	}
 	_putchar('\n');

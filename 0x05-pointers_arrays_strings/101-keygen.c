@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	srand((unsigned int) time(&t));
+	srand((unsigned int) time());
 	printf("%d\n", rand());
 
 	return (0);

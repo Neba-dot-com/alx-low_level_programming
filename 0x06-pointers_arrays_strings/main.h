@@ -9,4 +9,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *p);
 char *cap_string(char *p);
 char *leet(char *p);
+char *rot13(char *p);
+void print_number(int n);
 #endif /* MAIN_H */

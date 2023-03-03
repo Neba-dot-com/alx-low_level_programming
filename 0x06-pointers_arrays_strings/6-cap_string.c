@@ -16,9 +16,12 @@ char *cap_string(char *p)
 		{
 			p[i] = p[i] - 32;
 		}
-		else if (p[0] >= 'a' && p[0] <= 'z' && p[i - 1] == ' ')
+		else if (p[i] == ' ' || p[i] == '.' || p[i] == '\t' || p[i] == '\n')
 		{
-			p[i] = p[i] - 32;
+			if (p[i + 1] >= 'a' && p[i + 1] <= 'z')
+			{
+				p[i + 1] = p[i + 1] - 32;
+			}
 		}
 		else
 		{

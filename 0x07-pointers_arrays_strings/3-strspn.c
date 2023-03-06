@@ -7,7 +7,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
+	int i;
 
 	while (s[i] == accept[i])
 	{

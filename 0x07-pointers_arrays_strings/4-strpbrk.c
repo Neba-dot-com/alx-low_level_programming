@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * _strpbrk- a function tha searches a string
  * @s: array
@@ -18,12 +17,9 @@ char *_strpbrk(char *s, char *accept)
 			{
 				return (s);
 			}
-			else
-			{
-				return (NULL);
-			}
 		}
 		s++;
 	}
+	return ('\0');
 }
 

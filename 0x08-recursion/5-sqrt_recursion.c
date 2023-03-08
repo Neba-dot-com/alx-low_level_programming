@@ -12,7 +12,7 @@ int _sqrt(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	 _sqrt(n, 1);
+	return (n_sqrt(n, 1));
 }
 
 /**
